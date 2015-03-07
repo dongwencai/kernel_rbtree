@@ -1,0 +1,6 @@
+syn keyword CTagsStructure rb_root rb_node
+syn keyword CTagsMember data rb_parent_color rb_right rb rb_left rb_node
+syn keyword CTagsFunction rb_init_node rb_set_color rb_augment_erase_begin rb_augment_insert node_insert rb_link_node rb_first rb_prev rb_augment_path rb_set_parent rb_insert_color node_cmp rb_augment_erase_end rb_erase rb_replace_node rb_next rb_last __rb_erase_color __rb_rotate_right main __rb_rotate_left
+syn keyword CTagsType rb_augment_f rand_node_t
+syn keyword CTagsDefinedName RB_EMPTY_NODE rb_is_red RB_EMPTY_ROOT RB_CLEAR_NODE RB_ROOT RB_BLACK rb_is_black rb_color rb_set_red _LINUX_RBTREE_H rb_parent rb_set_black RB_RED rb_entry
+

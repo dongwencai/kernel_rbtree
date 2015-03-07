@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+RB_BLACK	rbtree.h	103;"	d
+RB_CLEAR_NODE	rbtree.h	136;"	d
+RB_EMPTY_NODE	rbtree.h	135;"	d
+RB_EMPTY_ROOT	rbtree.h	134;"	d
+RB_RED	rbtree.h	102;"	d
+RB_ROOT	rbtree.h	131;"	d
+_LINUX_RBTREE_H	rbtree.h	95;"	d
+__anon1::data	demo.c	/^   int data;$/;"	m	struct:__anon1	file:	access:public
+__anon1::rb	demo.c	/^   struct rb_node rb;$/;"	m	struct:__anon1	typeref:struct:__anon1::rb_node	file:	access:public
+__rb_erase_color	rbtree.c	/^static void __rb_erase_color(struct rb_node *node, struct rb_node *parent,$/;"	f	file:	signature:(struct rb_node *node, struct rb_node *parent, struct rb_root *root)
+__rb_rotate_left	rbtree.c	/^static void __rb_rotate_left(struct rb_node *node, struct rb_root *root)$/;"	f	file:	signature:(struct rb_node *node, struct rb_root *root)
+__rb_rotate_right	rbtree.c	/^static void __rb_rotate_right(struct rb_node *node, struct rb_root *root)$/;"	f	file:	signature:(struct rb_node *node, struct rb_root *root)
+data	demo.c	/^   int data;$/;"	m	struct:__anon1	file:	access:public
+main	demo.c	/^int main()$/;"	f
+node_cmp	demo.c	/^int node_cmp(rand_node_t *src,rand_node_t *dst)$/;"	f	signature:(rand_node_t *src,rand_node_t *dst)
+node_insert	demo.c	/^void node_insert(rand_node_t *node,struct rb_root *root)$/;"	f	signature:(rand_node_t *node,struct rb_root *root)
+rand_node_t	demo.c	/^}rand_node_t;$/;"	t	typeref:struct:__anon1	file:
+rb	demo.c	/^   struct rb_node rb;$/;"	m	struct:__anon1	typeref:struct:__anon1::rb_node	file:	access:public
+rb_augment_erase_begin	rbtree.c	/^struct rb_node *rb_augment_erase_begin(struct rb_node *node)$/;"	f	signature:(struct rb_node *node)
+rb_augment_erase_begin	rbtree.h	/^extern struct rb_node *rb_augment_erase_begin(struct rb_node *node);$/;"	p	signature:(struct rb_node *node)
+rb_augment_erase_end	rbtree.c	/^void rb_augment_erase_end(struct rb_node *node, rb_augment_f func, void *data)$/;"	f	signature:(struct rb_node *node, rb_augment_f func, void *data)
+rb_augment_erase_end	rbtree.h	/^extern void rb_augment_erase_end(struct rb_node *node,$/;"	p	signature:(struct rb_node *node, rb_augment_f func, void *data)
+rb_augment_f	rbtree.h	/^typedef void (*rb_augment_f)(struct rb_node *node, void *data);$/;"	t
+rb_augment_insert	rbtree.c	/^void rb_augment_insert(struct rb_node *node, rb_augment_f func, void *data)$/;"	f	signature:(struct rb_node *node, rb_augment_f func, void *data)
+rb_augment_insert	rbtree.h	/^extern void rb_augment_insert(struct rb_node *node,$/;"	p	signature:(struct rb_node *node, rb_augment_f func, void *data)
+rb_augment_path	rbtree.c	/^static void rb_augment_path(struct rb_node *node, rb_augment_f func, void *data)$/;"	f	file:	signature:(struct rb_node *node, rb_augment_f func, void *data)
+rb_color	rbtree.h	116;"	d
+rb_entry	rbtree.h	132;"	d
+rb_erase	rbtree.c	/^void rb_erase(struct rb_node *node, struct rb_root *root)$/;"	f	signature:(struct rb_node *node, struct rb_root *root)
+rb_erase	rbtree.h	/^extern void rb_erase(struct rb_node *, struct rb_root *);$/;"	p	signature:(struct rb_node *, struct rb_root *)
+rb_first	rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f	signature:(const struct rb_root *root)
+rb_first	rbtree.h	/^extern struct rb_node *rb_first(const struct rb_root *);$/;"	p	signature:(const struct rb_root *)
+rb_init_node	rbtree.h	/^static inline void rb_init_node(struct rb_node *rb)$/;"	f	signature:(struct rb_node *rb)
+rb_insert_color	rbtree.c	/^void rb_insert_color(struct rb_node *node, struct rb_root *root)$/;"	f	signature:(struct rb_node *node, struct rb_root *root)
+rb_insert_color	rbtree.h	/^extern void rb_insert_color(struct rb_node *, struct rb_root *);$/;"	p	signature:(struct rb_node *, struct rb_root *)
+rb_is_black	rbtree.h	118;"	d
+rb_is_red	rbtree.h	117;"	d
+rb_last	rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f	signature:(const struct rb_root *root)
+rb_last	rbtree.h	/^extern struct rb_node *rb_last(const struct rb_root *);$/;"	p	signature:(const struct rb_root *)
+rb_left	rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	access:public
+rb_link_node	rbtree.h	/^static inline void rb_link_node(struct rb_node * node, struct rb_node * parent,$/;"	f	signature:(struct rb_node * node, struct rb_node * parent, struct rb_node ** rb_link)
+rb_next	rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f	signature:(const struct rb_node *node)
+rb_next	rbtree.h	/^extern struct rb_node *rb_next(const struct rb_node *);$/;"	p	signature:(const struct rb_node *)
+rb_node	rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node	access:public
+rb_node	rbtree.h	/^struct rb_node$/;"	s
+rb_node::rb_left	rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	access:public
+rb_node::rb_parent_color	rbtree.h	/^	unsigned long  rb_parent_color;$/;"	m	struct:rb_node	access:public
+rb_node::rb_right	rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	access:public
+rb_parent	rbtree.h	115;"	d
+rb_parent_color	rbtree.h	/^	unsigned long  rb_parent_color;$/;"	m	struct:rb_node	access:public
+rb_prev	rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f	signature:(const struct rb_node *node)
+rb_prev	rbtree.h	/^extern struct rb_node *rb_prev(const struct rb_node *);$/;"	p	signature:(const struct rb_node *)
+rb_replace_node	rbtree.c	/^void rb_replace_node(struct rb_node *victim, struct rb_node *new,$/;"	f	signature:(struct rb_node *victim, struct rb_node *new, struct rb_root *root)
+rb_replace_node	rbtree.h	/^extern void rb_replace_node(struct rb_node *victim, struct rb_node *new, $/;"	p	signature:(struct rb_node *victim, struct rb_node *new, struct rb_root *root)
+rb_right	rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	access:public
+rb_root	rbtree.h	/^struct rb_root$/;"	s
+rb_root::rb_node	rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node	access:public
+rb_set_black	rbtree.h	120;"	d
+rb_set_color	rbtree.h	/^static inline void rb_set_color(struct rb_node *rb, int color)$/;"	f	signature:(struct rb_node *rb, int color)
+rb_set_parent	rbtree.h	/^static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p)$/;"	f	signature:(struct rb_node *rb, struct rb_node *p)
+rb_set_red	rbtree.h	119;"	d

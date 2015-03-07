@@ -1,0 +1,3 @@
+IncludeLocals:True
+UserLibraries:/home/mrdong/.vim/types_c.taghl
+TagFileDirectory:.
